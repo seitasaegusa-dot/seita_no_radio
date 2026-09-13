@@ -119,7 +119,7 @@ def build(items: list[dict]) -> str:
     A(f'  <itunes:name>{esc(AUTHOR)}</itunes:name>')
     A(f'  <itunes:email>{esc(OWNER_MAIL)}</itunes:email>')
     A('</itunes:owner>')
-    A(f'<itunes:image href="{esc(BASE_URL)}/cover.jpg"/>')
+    A(f'<itunes:image href="{esc(BASE_URL)}/cover2.jpg"/>')
     A('<itunes:explicit>false</itunes:explicit>')
     A('<itunes:type>episodic</itunes:type>')
     for main, sub in CATEGORIES:
